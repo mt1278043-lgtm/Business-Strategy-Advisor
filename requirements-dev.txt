@@ -1,0 +1,23 @@
+# Development dependencies for Business Strategy Advisor
+
+# Production dependencies
+-r requirements.txt
+
+# Code quality and testing
+pytest==7.4.2
+pytest-cov==4.1.0
+black==23.9.1
+pylint==2.17.5
+flake8==6.1.0
+mypy==1.5.1
+
+# Documentation
+sphinx==7.2.6
+sphinx-rtd-theme==1.3.0
+
+# Debugging
+ipdb==0.13.13
+ipython==8.15.0
+
+# Type stubs
+types-requests==2.31.0.5
